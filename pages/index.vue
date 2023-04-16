@@ -4,13 +4,10 @@
   <div>
     <NuxtWelcome />
   </div>
-
 </template>
 
-<style>
-h1 {
-  @apply  text-3xl font-bold ;
+<script>
+export default {
+  name: 'IndexPage'
 }
-
-</style>
-
+</script>
